@@ -1,0 +1,139 @@
+/* ===== BASE STYLING ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #f9f9f9;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+/* ===== HERO SECTION ===== */
+header {
+  background: linear-gradient(135deg, #00bfff, #0077aa);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+header button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background: #ff9800;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+header button:hover {
+  background: #e68a00;
+  transform: scale(1.05);
+}
+
+/* ===== SKILLS ===== */
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#skills li {
+  background: #00bfff;
+  color: white;
+  margin: 5px 10px;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+/* ===== PROJECT CARDS ===== */
+#projects {
+  background: #f5f5f5;
+  padding: 30px 20px;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: left;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+}
+
+.project-card a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* ===== CONTACT ===== */
+#contact {
+  background: #222;
+  color: white;
+  padding: 40px 20px;
+}
+
+#contact a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .project-card {
+    max-width: 90%;
+    margin: 10px auto;
+  }
+
+  #skills li {
+    margin: 5px;
+    padding: 6px 10px;
+  }
+}
