@@ -87,21 +87,21 @@ header p {
 }
 
 /* ===== SKILLS ===== */
-.skills-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-top: 20px;
+.skill-card {
+  background-color: #f4f4f4; /* example */
+  padding: 20px;
+  width: 250px;               /* fixed width ensures perfect centering */
+  text-align: center;         /* center text inside cards */
+  border-radius: 8px;
 }
 
-.skill-card {
-  background: white;
-  padding: 15px 20px;
-  border-radius: 10px;
-  min-width: 150px;
-  text-align: center;
-  transition: all 0.3s ease;
+.skills-container {
+  display: flex;          /* use flexbox */
+  justify-content: center; /* centers items horizontally */
+  gap: 20px;              /* space between cards */
+  flex-wrap: wrap;         /* wrap on smaller screens */
+  margin: 0 auto;          /* optional: center container itself */
+  max-width: 1000px;       /* optional: keep content from stretching too wide */
 }
 
  
@@ -137,9 +137,12 @@ header p {
 .project-card a {
   margin-top: 10px;
   display: inline-block;
-  text-decoration: none;    /* no underline by default */
   color: #007bff;           /* blue color */
   
+}
+
+.project-card a:hover {
+  text-decoration: underline;
 }
 
 
