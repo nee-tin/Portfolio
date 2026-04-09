@@ -146,6 +146,12 @@ header p {
 .project-card a:hover {
   text-decoration: underline; /* underline appears only on hover */
 }
+
+.link-container {
+  display: flex;      /* puts buttons in a row */
+  gap: 20px;          /* space between buttons */
+  margin-top: 10px;   /* optional spacing above buttons */
+}
  
 
 
