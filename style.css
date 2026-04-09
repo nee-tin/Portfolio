@@ -100,7 +100,7 @@ header p {
 }
 
 .skill-card:hover {
-  background: #b2ebf2;
+  background: white;
   transform: translateY(-3px);
 }
 
