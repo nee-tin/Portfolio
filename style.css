@@ -99,11 +99,7 @@ header p {
   transition: all 0.3s ease;
 }
 
-.skill-card:hover {
-  background: white;
-  transform: translateY(-3px);
-}
-
+ 
 /* ===== PROJECT CARDS ===== */
 #projects {
   background: white;
@@ -116,6 +112,12 @@ header p {
   justify-content: center;
   gap: 20px;
 }
+
+.project-card:hover {
+  background: white;
+  transform: translateY(-3px);
+}
+
 
 .project-card {
   border: 1px solid #ccc;
@@ -140,6 +142,7 @@ header p {
   text-decoration: underline; /* underline on hover */
   color: #0056b3;             /* darker blue on hover */
   transform: scale(1.05);     /* small zoom effect on hover */
+  
 }
 /* ===== CONTACT ===== */
 #contact {
