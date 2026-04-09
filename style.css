@@ -118,6 +118,11 @@ header p {
 
  
 /* ===== PROJECT CARDS ===== */
+
+#projects h2 {
+    margin-bottom: 14px;
+}
+
 #projects {
   background: white;
   padding: 30px 20px;
