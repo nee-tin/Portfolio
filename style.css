@@ -8,6 +8,10 @@ body {
   color: #333;
 }
 
+#about h2 {
+  margin-bottom: 14px;
+}
+
 h1, h2, h3 {
   margin: 10px 0;
 }
