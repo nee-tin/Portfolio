@@ -95,6 +95,10 @@ header p {
 }
 
 /* ===== SKILLS ===== */
+
+#skills h2 {
+     margin-bottom: 14px;
+}
 .skill-card {
   background-color: #f4f4f4; /* example */
   padding: 20px;
