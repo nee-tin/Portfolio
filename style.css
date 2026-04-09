@@ -36,22 +36,22 @@ header p {
   margin-bottom: 20px;
 }
 
-/* ===== white BUTTONS ===== */
-.project-btn {
-  background-color:white;
-  color: black;
-  padding: 12px 25px;
-  border-radius: 8px;
+/* HERO BUTTON ONLY */
+.hero .project-btn {
+  background-color: #ff9800;   /* orange */
+  color: white;                /* text color */
+  padding: 12px 25px;          /* size of the button */
+  border-radius: 8px;          /* rounded corners */
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: none;       /* remove underline */
   display: inline-block;
   transition: all 0.3s ease;
 }
 
-.project-btn:hover {
-  background-color: #e68a00;
-  transform: scale(1.05);
-}
+.hero .project-btn:hover {
+  background-color: #e68a00;   /* darker orange on hover */
+  transform: scale(1.05);      /* small hover effect */
+
 
 /* ===== CERTIFICATIONS ===== */
 .cert-grid {
@@ -106,7 +106,7 @@ header p {
 
 /* ===== PROJECT CARDS ===== */
 #projects {
-  background: #f5f5f5;
+  background: white;
   padding: 30px 20px;
 }
 
