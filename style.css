@@ -51,7 +51,7 @@ header p {
 .hero .project-btn:hover {
   background-color: #e68a00;   /* darker orange on hover */
   transform: scale(1.05);      /* small hover effect */
-
+}
 
 /* ===== CERTIFICATIONS ===== */
 .cert-grid {
