@@ -59,6 +59,10 @@ header p {
 }
 
 /* ===== CERTIFICATIONS ===== */
+
+#certifications h2 {
+  margin-bottom: 20px;  
+}
 .cert-grid {
   display: flex;
   flex-wrap: wrap;
