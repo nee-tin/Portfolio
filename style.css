@@ -127,16 +127,20 @@ header p {
   width: 300px;
 }
 
-.project-card:hover {
-  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
-  transform: translateY(-5px);
-}
-
 .project-card a {
   margin-top: 10px;
   display: inline-block;
+  text-decoration: none;    /* no underline by default */
+  color: #007bff;           /* blue color */
+  font-weight: bold;
+  transition: all 0.3s ease; /* smooth hover transition */
 }
 
+.project-card a:hover {
+  text-decoration: underline; /* underline on hover */
+  color: #0056b3;             /* darker blue on hover */
+  transform: scale(1.05);     /* small zoom effect on hover */
+}
 /* ===== CONTACT ===== */
 #contact {
   background: #222;
