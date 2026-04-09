@@ -134,16 +134,19 @@ header p {
   width: 300px;
 }
 
+
+
 .project-card a {
   margin-top: 10px;
-  display: inline-block;
-  color: #007bff;           /* blue color */
-  
+  display: inline-block;  /* allows margin-top to work */
+  color: #007bff;         /* blue link color */
+  text-decoration: none;  /* remove underline by default */
 }
 
 .project-card a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* underline appears only on hover */
 }
+ 
 
 
 /* ===== CONTACT ===== */
