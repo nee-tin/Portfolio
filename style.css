@@ -36,6 +36,12 @@ header p {
   margin-bottom: 20px;
 }
 
+#about p {
+  text: center;
+  margin: auto;
+}
+
+
 /* HERO BUTTON ONLY */
 .hero .project-btn {
   background-color: #ff9800;   /* orange */
