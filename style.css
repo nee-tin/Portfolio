@@ -36,10 +36,10 @@ header p {
   margin-bottom: 20px;
 }
 
-/* ===== ORANGE BUTTONS ===== */
+/* ===== white BUTTONS ===== */
 .project-btn {
-  background-color: #ff9800;
-  color: white;
+  background-color:white;
+  color: black;
   padding: 12px 25px;
   border-radius: 8px;
   font-weight: bold;
