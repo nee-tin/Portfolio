@@ -104,7 +104,7 @@ header p {
      margin-bottom: 30px;
 }
 .skill-card {
-  background-color: #f4f4f4; /* example */
+  background-color: white; /* example */
   padding: 20px;
   width: 250px;               /* fixed width ensures perfect centering */
   text-align: center;         /* center text inside cards */
