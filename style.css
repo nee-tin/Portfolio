@@ -141,7 +141,6 @@ header p {
 }
 
 .project-card:hover {
-  background: white;
   transform: translateY(-3px);
 }
 
@@ -151,7 +150,7 @@ header p {
   padding: 20px;
   border-radius: 10px;
   text-align: left;
-  
+  background: white;
   transition: all 0.3s ease;
   width: 300px;
 }
