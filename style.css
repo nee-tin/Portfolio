@@ -135,7 +135,7 @@ header p {
 .project-grid {
   display: flex;
   flex-wrap: wrap;
-  background: white;
+
   justify-content: center;
   gap: 20px;
 }
