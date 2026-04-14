@@ -9,7 +9,6 @@ body {
 }
 
 .featured {
-  border: 1px solid #4f46e5;
   transform: scale(1.02);
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
   transition: 0.3s ease;
