@@ -3,7 +3,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
   background: #f9f9f9;
   color: #333;
 }
@@ -21,22 +20,20 @@ body {
 #about {
   max-width: 800px;
   margin: 0 auto;
-  text-align: center;
+  text-align: center; /* only here */
 }
 
 #about h2 {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 #about p {
   max-width: 700px;
-  margin: 20px auto 40px auto; /* 👈 added top space */
+  margin: 0 auto;
   font-size: 18px;
   line-height: 1.6;
   padding: 0 12px;
-  margin: 30px auto 40px auto;
 }
-
 h1, h2, h3 {
   margin: 10px 0;
 }
@@ -64,10 +61,7 @@ header p {
   font-size: 1.2rem;
   margin-bottom: 20px;
 }
-#about {
-  display: flex;
-  justify-content: center;
-}
+ 
 
 /* HERO BUTTON ONLY */
 .hero .project-btn {
