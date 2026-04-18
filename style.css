@@ -18,6 +18,12 @@ body {
   transform: scale(1.05);
 }
 
+#about {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 #about h2 {
   margin-bottom: 25px;
 }
