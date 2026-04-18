@@ -233,8 +233,9 @@ header p {
   background: #222;
   line-height: 1.6;
   color: white;
-  padding: 50px 20px;
+  padding: 80px 20px;  /* increased padding */
   text-align: center;
+  margin-top: 60px;    /* 👈 pushes it down */
 }
 
 #contact a {
