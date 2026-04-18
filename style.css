@@ -25,6 +25,8 @@ body {
 #about p {
   margin-bottom: 40px;
   font-size: 18px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 h1, h2, h3 {
