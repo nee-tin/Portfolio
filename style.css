@@ -155,17 +155,6 @@ header p {
   gap: 20px;
 }
 
-
-.project-card {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
-}
-
-
 .project-card.featured {
   transform: scale(1.02);
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
@@ -174,16 +163,19 @@ header p {
 
 
 .project-card {
-  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 12px;
   padding: 20px;
-  border-radius: 10px;
-  text-align: left;
-  background: white;
-  transition: all 0.3s ease;
-
+  transition: all 0.25s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
 }
 
-
+.project-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+  border-color: rgba(0, 123, 255, 0.2);
+}
 
 .project-card a {
   margin-top: 10px;
