@@ -79,7 +79,7 @@ header p {
 
 /* ===== ABOUT ===== */
 #about {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
@@ -90,9 +90,9 @@ header p {
 }
 
 #about p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.7;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;   /* centers the block */
   text-align: center; /* centers the text */
 }
