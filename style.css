@@ -231,6 +231,7 @@ header p {
 /* ===== CONTACT ===== */
 #contact {
   background: #222;
+  line-height: 1.5;
   color: white;
   padding: 50px 20px;
   text-align: center;
