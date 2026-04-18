@@ -162,14 +162,106 @@ header p {
 }
 
 
-.project-card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  transition: all 0.25s ease;
-  cursor: pointer;
-  border: 1px solid transparent;
-}
+<!-- FEATURED 1 -->
+     <div class="project-card featured">
+    <h3>Urban Spice — Restaurant Website ⭐</h3>
+    <p>A fully responsive restaurant landing page with modern UI, menu showcase, reservation form, and smooth mobile experience. Designed to simulate a real client restaurant website.</p>
+    <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+ 
+   <div class="link-container">
+    <a href="https://urban-spice-restro.netlify.app" target="_blank" class="project-btn">Live Demo</a>
+    <a href="https://github.com/nee-tin/urban-spice-restaurant" target="_blank" class="project-btn">GitHub</a>
+   </div>
+   </div>
+    
+    <div class="project-card featured">
+      <h3>Notes SaaS App⭐</h3>
+      <p>Full-featured notes application with authentication, CRUD operations, and clean SaaS-style UI.</p>
+      <p><strong>Tech:</strong> React, Firebase, Tailwind</p>
+
+    <div class="link-container">
+     <a href="https://nitink-amber.vercel.app" target="_blank" class="project-btn">Live Demo</a>
+     <a href="https://github.com/nee-tin/notes-saas" target="_blank" class="project-btn">GitHub</a>
+    </div>
+    </div>
+
+    <!-- FEATURED 2 -->
+    <div class="project-card featured">
+      <h3>Task Dashboard ⭐</h3>
+      <p>Modern productivity dashboard with analytics charts and task tracking system.</p>
+      <p><strong>Tech:</strong> React, Chart.js</p>
+
+      <div class="link-container">
+        <a href="https://nee-tin.github.io/Task-Dashboard/" target="_blank" class="project-btn">Live Demo</a>
+        <a href="https://github.com/nee-tin/Task-Dashboard" target="_blank" class="project-btn">GitHub</a>
+      </div>
+    </div>
+
+    <!-- FEATURED 3 -->
+    <div class="project-card featured">
+      <h3>Drag & Drop Task App ⭐</h3>
+      <p>Interactive drag & drop task manager with persistent state and smooth UX.</p>
+      <p><strong>Tech:</strong> React, Drag & Drop</p>
+
+      <div class="link-container">
+        <a href="https://nee-tin.github.io/Task-Manager-React-Drag-Drop/" target="_blank" class="project-btn">Live Demo</a>
+        <a href="https://github.com/nee-tin/Task-Manager-React-Drag-Drop" target="_blank" class="project-btn">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+
+  <h2 style="margin-top:60px;">Other Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <h3>Calculator Pro</h3>
+      <p>Interactive calculator with themes and keyboard support.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+      <div class="link-container">
+        <a href="https://github.com/nee-tin/Calculator-Pro" target="_blank" class="project-btn">GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>Real-time weather app using API integration.</p>
+      <p><strong>Tech:</strong> JavaScript, APIs</p>
+      <div class="link-container">
+        <a href="https://github.com/nee-tin/Weather-App" target="_blank" class="project-btn">GitHub</a>
+      </div>
+    </div>
+
+     <div class="project-card">
+      <h3>Todo CRUD App (React)</h3>
+      <p>A responsive task management app built with React and Vite. Users can create, update, and delete tasks efficiently.</p>
+      <p><strong>Tech:</strong> React, Vite, CSS</p>
+      <div class="link-container">
+      <a href="https://github.com/nee-tin/todo-crud-app1" target="_blank" class="project-btn">GitHub</a>
+     </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Online Registration Form</h3>
+      <p>Responsive HTML/CSS form UI design practice.</p>
+      <p><strong>Tech:</strong> HTML, CSS</p>
+      <div class="link-container">
+        <a href="https://github.com/nee-tin/Online-Registration-Form-" target="_blank" class="project-btn">GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Todo App (Vanilla JS)</h3>
+      <p>CRUD operations with local storage and clean UI.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+      <div class="link-container">
+        <a href="https://github.com/nee-tin/todo-app" target="_blank" class="project-btn">GitHub</a>
+      </div>
+    </div>
+ 
+
+  </div>
 
 .project-card:hover {
   transform: translateY(-10px) scale(1.02);
