@@ -62,15 +62,6 @@ header p {
   justify-content: center;
 }
 
-#about p {
-  max-width: 700px;
-  width: 100%;
-  margin: 0 0 40px 0;
-  font-size: 18px;
-  line-height: 1.6;
-  text-align: left;
-}
-
 /* HERO BUTTON ONLY */
 .hero .project-btn {
   background-color: #ff9800;   /* orange */
