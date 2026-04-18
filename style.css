@@ -153,7 +153,28 @@ header p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 24px 20px; /* adds top & bottom breathing space */
+  padding: 24px 20px;
+
+  /* 👇 IMPORTANT: make card visible always */
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #eaeaea;
+
+  /* subtle default shadow so it never disappears */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+  /* smooth animation */
+  transition: all 0.25s ease;
+
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* HOVER (just enhancement, not reveal) */
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+  border-color: rgba(0, 123, 255, 0.2);
 }
 
 .project-grid {
@@ -177,12 +198,6 @@ header p {
   transform: scale(1.02);
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
   transition: 0.3s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
-  border-color: rgba(0, 123, 255, 0.2);
 }
 
 .project-card a {
