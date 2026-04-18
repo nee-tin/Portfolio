@@ -155,26 +155,23 @@ header p {
   justify-content: space-between;
   padding: 24px 20px;
 
-  /* 👇 IMPORTANT: make card visible always */
   background: #ffffff;
   border-radius: 12px;
   border: 1px solid #eaeaea;
 
-  /* subtle default shadow so it never disappears */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 
-  /* smooth animation */
-  transition: all 0.25s ease;
+  transition: all 0.2s ease;
 
   opacity: 1;
   transform: translateY(0);
 }
 
-/* HOVER (just enhancement, not reveal) */
+/* VERY SUBTLE HOVER */
 .project-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
-  border-color: rgba(0, 123, 255, 0.2);
+  transform: translateY(-4px); /* smaller movement */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10); /* softer shadow */
+  border-color: rgba(0, 123, 255, 0.15); /* very light highlight */
 }
 
 .project-grid {
