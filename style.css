@@ -90,13 +90,15 @@ header p {
 }
 
 #about p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.7;
   max-width: 650px;
   margin: 0 auto;   /* centers the block */
   text-align: center; /* centers the text */
 }
+
 /* ===== CERTIFICATIONS ===== */
+
 #certifications h2 {
   margin-bottom: 30px;
 }
