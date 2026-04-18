@@ -148,10 +148,12 @@ header p {
   padding: 30px 20px;
 }
 
+/* CARD BASE */
 .project-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 24px 20px; /* adds top & bottom breathing space */
 }
 
 .project-grid {
@@ -159,6 +161,16 @@ header p {
   grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
   justify-content: center;
   gap: 20px;
+}
+
+.project-card h3 {
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 .project-card.featured {
@@ -188,8 +200,8 @@ header p {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: auto;
-  padding-top: 15px;
+  margin-top: 18px;
+  padding-bottom: 6px;  
 }
  
 
