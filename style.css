@@ -257,9 +257,10 @@ header p {
   font-size: 14px;
 }
 
-.project-btn:hover {
-  background: #0056b3;
+..project-btn:hover {
+  background: #1586d7;
 }
+
 
 /* ===== CONTACT ===== */
 #contact {
