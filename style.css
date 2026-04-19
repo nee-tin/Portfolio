@@ -40,8 +40,8 @@ header {
   color: white;
   padding: 70px 20px;
   text-align: center;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
 }
 
 header h1 {
