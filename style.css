@@ -145,7 +145,7 @@ header p {
   flex-wrap: wrap;
   max-width: 1000px;
   margin: 0 auto;
-  text-align: center;
+
 }
 
 .skill-card {
@@ -154,7 +154,7 @@ header p {
   width: 260px;
   border-radius: 10px;
   border: 1px solid #ddd;
-  text-align: center;
+  text-align: left;
 }
 
 /* ===== PROJECTS ===== */
