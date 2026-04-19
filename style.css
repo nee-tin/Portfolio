@@ -134,6 +134,8 @@ header p {
 /* ===== SKILLS ===== */
 #skills h2 {
   margin-bottom: 30px;
+  text-align: center;
+  
 }
 
 .skills-container {
@@ -151,7 +153,7 @@ header p {
   width: 260px;
   border-radius: 10px;
   border: 1px solid #ddd;
-  text-align: left;
+  text-align: center;
 }
 
 /* ===== PROJECTS ===== */
