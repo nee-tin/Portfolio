@@ -22,7 +22,7 @@ h2 {
 
 h3 {
   margin: 0 0 10px 0;
-  text-align: left;
+  text-align: center;
 }
 
 p {
@@ -58,6 +58,19 @@ header h2 {
 header p {
   font-size: 1.1rem;
   margin-bottom: 25px;
+}
+
+#skills h2,
+#certifications h2,
+#projects h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.skill-card,
+.cert-card,
+.project-card {
+  text-align: center;
 }
 
 /* HERO BUTTON */
@@ -149,6 +162,15 @@ header p {
 }
 
 .skill-card {
+  text-align: center;
+}
+
+.skill-card h3,
+.skill-card p {
+  text-align: center;
+}
+
+.skill-card {
   background: white;
   padding: 20px;
   width: 260px;
@@ -165,8 +187,8 @@ header p {
 #projects > p {
   max-width: 700px;
   margin: 0 auto 30px auto;
-  font-size: 12px;
-  text-align: left;
+  font-size: 14px;
+  text-align: center;
   line-height: 1.6;
 }
 
