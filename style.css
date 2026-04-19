@@ -133,9 +133,9 @@ header p {
 
 /* ===== SKILLS ===== */
 #skills h2 {
-  margin-bottom: 30px;
   text-align: center;
-  
+  margin: 0 auto 30px;
+  width: 100%;
 }
 
 .skills-container {
