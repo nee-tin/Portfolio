@@ -200,6 +200,10 @@ header p {
   gap: 20px;
 }
 
+.project-grid h3 {
+  color: navy
+}
+
 /* CARD */
 .project-card {
   display: flex;
@@ -224,6 +228,10 @@ header p {
 .project-card.featured {
   border: 1px solid rgba(0,123,255,0.2);
   box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.project-card.featured h3 {
+  color: navy;
 }
 
 /* TEXT */
