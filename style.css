@@ -291,6 +291,9 @@ header p {
   }
 }
 
-.end-para p{
-  margin-top: 8px;
+.end-para {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
 }
