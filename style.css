@@ -291,6 +291,6 @@ header p {
   }
 }
 
-.end-para {
+.end-para p{
   margin-top: 8px;
 }
