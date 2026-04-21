@@ -111,9 +111,9 @@ header p {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.7;
-  max-width: 1200px;
-  margin: 0 auto;   /* centers the block */
-  text-align: center; /* centers the text */
+  max-width: 700px;   /* reduce width */
+  margin: 0 auto;
+  text-align: left;   
 }
 
 /* ===== CERTIFICATIONS ===== */
@@ -206,6 +206,7 @@ header p {
   grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
   justify-content: center;
   gap: 20px;
+  justify-items: center;   
 }
 
 .project-grid h3 {
@@ -292,10 +293,9 @@ header p {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
-  .project-card,
-  .cert-card,
-  .skill-card {
-    width: 90%;
+  .project-card {
+    width: 100%;
+    max-width: 320px;
   }
 }
 
