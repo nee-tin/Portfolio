@@ -108,12 +108,11 @@ header p {
 }
 
 #about p {
-  font-family: Arial, sans-serif;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.7;
-  max-width: 700px;   /* reduce width */
+  max-width: 900px;
   margin: 0 auto;
-  text-align: left;   
 }
 
 /* ===== CERTIFICATIONS ===== */
@@ -130,7 +129,7 @@ header p {
 }
 
 .cert-card {
-  background: white;
+  background: #fff;
   border-radius: 10px;
   border: 1px solid #ddd;
   padding: 15px;
@@ -167,9 +166,7 @@ header p {
 
 }
 
-.skill-card {
-  text-align: center;
-}
+ 
 
 .skill-card h3,
 .skill-card p {
@@ -177,7 +174,8 @@ header p {
 }
 
 .skill-card {
-  background: white;
+  text-align: center;
+  background: #fff;
   padding: 20px;
   width: 260px;
   border-radius: 10px;
@@ -219,7 +217,6 @@ header p {
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
-
   background: #fff;
   border-radius: 12px;
   border: 1px solid #eaeaea;
@@ -292,13 +289,28 @@ header p {
 }
 
 /* ===== RESPONSIVE ===== */
+/* ===== ABOUT (DESKTOP DEFAULT) ===== */
+#about p {
+  max-width: 850px;
+  line-height: 1.8;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .project-card {
     width: 100%;
     max-width: 320px;
   }
-}
 
+  #about p {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+     max-width: 100%;
+    padding: 0 15px;
+    text-align: left;
+  }
+}
 .end-para {
   margin-top: 16px;
   text-align: center;
