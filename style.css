@@ -96,25 +96,27 @@ header p {
 }
 
 /* ===== ABOUT ===== */
-#about {
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-}
+
 
 #about h2 {
   text-align: center;
-  margin-bottom: 20px;
+}
+
+#about {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-size: 15.2px;
 }
 
 #about p {
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.7;
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
+  line-height: 1.8;
+  text-align: center;
+   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-size: 15.2px;
 }
-
 /* ===== CERTIFICATIONS ===== */
 
 #certifications h2 {
@@ -278,10 +280,13 @@ header p {
 #contact {
   background: #222;
   line-height: 1.6;
+  font-size: 16px;
   color: white;
   padding: 40px 20px;  /* increased padding */
   text-align: center;
   margin-top: auto;    /* 👈 pushes it down */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 #contact a {
@@ -289,18 +294,15 @@ header p {
   text-decoration: none;
 }
 
+#contact h2 {
+   font-size: 20px;
+}
+
 #contact a:hover {
   text-decoration: underline;
 }
 
-/* ===== RESPONSIVE ===== */
-/* ===== ABOUT (DESKTOP DEFAULT) ===== */
-#about p {
-  max-width: 850px;
-  line-height: 1.8;
-  margin: 0 auto;
-  text-align: center;
-}
+
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
@@ -310,15 +312,16 @@ header p {
   }
 
   #about p {
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-     max-width: 100%;
+    max-width: 100%;
     padding: 0 15px;
     text-align: left;
   }
 }
+
 .end-para {
-  margin-top: 16px;
+  margin-top: 18px;
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
   color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
