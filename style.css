@@ -11,14 +11,15 @@ html, body {
    }
 
 .hero h2 {
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 .hero h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
    }
+ 
 
  
 body {
