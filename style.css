@@ -13,6 +13,12 @@ html, body {
 .hero h2 {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;  
 }
+
+
+.hero h1 {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;  
+   }
+
  
 body {
   font-family: Arial, sans-serif;
