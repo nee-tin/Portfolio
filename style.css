@@ -326,11 +326,11 @@ header p {
   
   .project-card {
     width: 100%;
-    max-width: 320px;
+    max-width: 380px;
    }
 
 #about p {
-  max-width: 50%;
+  max-width: 80%;
   margin: 0 auto;
   text-align: left;
   line-height: 1.6;
