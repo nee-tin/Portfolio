@@ -330,7 +330,7 @@ header p {
    }
 
 #about p {
-  max-width: 90%;
+  max-width: 50%;
   margin: 0 auto;
   text-align: left;
   line-height: 1.6;
