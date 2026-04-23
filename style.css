@@ -321,24 +321,7 @@ header p {
 
 
 /* ===== RESPONSIVE ===== */
-
-@media (max-width: 768px) {
-  
-  .project-card {
-    width: 100%;
-   
-   }
-
-#about p {
-  max-width: 80%;
-  margin: 0 auto;
-  text-align: left;
-  line-height: 1.6;
-  
-  
-}
-
-}
+ 
 
 
 .end-para {
