@@ -329,14 +329,14 @@ header p {
     max-width: 320px;
    }
 
-  #about p {
-    max-width: 92%;
-    margin: 0 auto;
-    text-align: left;
-    padding: 0 12px;
-    line-height: 1.6;
-    word-break: break-word;
-  }
+#about p {
+  max-width: 82%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+  padding: 0 8px;
+  font-size: 15px;
+}
 
 }
 
