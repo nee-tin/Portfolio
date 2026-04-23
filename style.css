@@ -330,11 +330,11 @@ header p {
    }
 
 #about p {
-  max-width: 82%;
+  max-width: 85%;
   margin: 0 auto;
   text-align: left;
   line-height: 1.6;
-  padding: 0 8px;
+  
   font-size: 15px;
 }
 
