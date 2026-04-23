@@ -329,10 +329,11 @@ header p {
 
   #about p {
     max-width: 100%;
-    
-    text-align: center;
+    text-align: left;
+    padding: 0 16px;
   }
 }
+
 
 .end-para {
   margin-top: 18px;
