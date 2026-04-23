@@ -147,11 +147,12 @@ header p {
 .cert-card {
   background: rgb(255, 255, 255);
   border-radius: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid rgba(0,123,255,0.2);
   padding: 15px;
   max-width: 200px;
   text-align: center;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease
+   border: 1px solid rgba(0,123,255,0.2);
   box-shadow: 0 10px 25px rgba(0,0,0,0.12);
 
 }
@@ -197,7 +198,8 @@ header p {
   padding: 22px;
   width: 260px;
   border-radius: 12px;
-  border: 1px solid #eaeaea;
+  border: 1px solid rgba(0,123,255,0.2);
+  border: 1px solid rgba(0,123,255,0.2);
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
   text-align: center; 
   transition: all 0.2s ease;  
