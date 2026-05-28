@@ -6,10 +6,12 @@
 html, body {
   height: 100%;
 }
-  .hero p {
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-    width: 50%;
-   }
+
+ .hero p {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
 
 .hero h2 {
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
