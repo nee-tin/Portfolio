@@ -15,6 +15,14 @@ html, body {
   margin-bottom:16px;
 }
 
+.project-image{
+  transition:0.3s ease;
+}
+
+.project-card:hover .project-image{
+  transform:scale(1.03);
+}
+
 
 .hero{
   padding-top: 24px;
