@@ -180,7 +180,7 @@ header p {
 
 .highlights h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 32px;
 }
 
@@ -191,8 +191,8 @@ header p {
 }
 
 .highlight-card {
-  background: rgba(19, 19, 31, 0.88);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background:#ffffff;
+  border: 2px solid rgba(9, 9, 9, 0.08);
   border-radius: 16px;
   padding: 22px;
   display: flex;
@@ -209,7 +209,7 @@ header p {
 }
 
 .check {
-  color: #00d26a;
+  color: #0b0c0c;
   font-size: 1.3rem;
   font-weight: 700;
   flex-shrink: 0;
@@ -219,7 +219,7 @@ header p {
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.5;
-  color: #f5f5f5;
+  color: #0f0f0f;
 }
 
 
