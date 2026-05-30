@@ -23,8 +23,8 @@ html, body {
   object-fit:cover;
   border-radius:12px;
 
-  border:1px solid #3a3a3a;
-  box-shadow:0 8px 20px rgba(0,0,0,0.25);
+  border:1px solid #e5e1e1;
+  box-shadow:0 8px 20px rgba(0, 0, 0, 0.274);
 
   margin-bottom:16px;
 }
@@ -274,6 +274,24 @@ header p {
 
 .project-card h3{
   font-size: 18px;
+  
+}
+
+.project-card .padding{
+  padding-bottom: 20px;
+ 
+}
+
+.project-card .pad{
+  padding-bottom: 22px;
+   
+}
+
+.project-card .bold{
+   
+  color: rgb(25, 25, 199);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
 }
 
  
@@ -302,7 +320,8 @@ header p {
 }
 
 .project-card.featured h3 {
-  color: navy;
+  color: rgb(10, 10, 230);
+  
 }
 
 /* TEXT */
@@ -313,6 +332,7 @@ header p {
   text-align: justify;
  max-width:600px;
   margin:0 auto;
+  color: rgb(3, 3, 106);
 }
 
 .project-card .notes{
@@ -330,7 +350,7 @@ header p {
 }
 
 .project-btn {
-  background: rgb(48, 48, 169);
+  background: rgb(9, 9, 161);
   color: white;
   padding: 4px 8px;
   border-radius: 6px;
@@ -391,4 +411,13 @@ header p {
   font-size: 17px;
   color: white;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+@media (max-width: 480px) {
+   #about p{
+    
+    text-align: center;
+    max-width:275px ;
+   }
 }
