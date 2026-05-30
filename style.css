@@ -274,7 +274,8 @@ header p {
 
 .project-card h3{
   font-size: 18px;
-  
+   
+ 
 }
 
 .project-card .padding{
@@ -413,6 +414,7 @@ header p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+
 @media (max-width: 480px) {
    #about p{
     
@@ -420,5 +422,4 @@ header p {
     text-align: justify;
     
    }
-}
 }
