@@ -186,7 +186,7 @@ header p {
 
 .highlights-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
@@ -194,7 +194,7 @@ header p {
   background:#ffffff;
   border: 2px solid rgba(9, 9, 9, 0.08);
   border-radius: 16px;
-  padding: 22px;
+  padding: 18px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -477,6 +477,11 @@ header p {
     line-height: 1.6;
     word-break: break-word;
   }
+
+   .highlights-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
  
   .highlights {
     margin: 40px auto;
@@ -510,4 +515,7 @@ header p {
     text-align: justify;
     
    }
+   .highlights-grid {
+    grid-template-columns: 1fr;
+  }
 }
