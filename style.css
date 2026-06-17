@@ -185,8 +185,9 @@ header p {
 }
 
 .highlights-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -200,6 +201,7 @@ header p {
   gap: 12px;
   transition: all 0.3s ease;
   backdrop-filter: blur(10px);
+  flex: 0 1 240px;
 }
 
 .highlight-card:hover {
