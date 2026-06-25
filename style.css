@@ -376,7 +376,7 @@ header p {
 .project-card img {
   width: 100%;
   border-radius: 8px;
-  box-shadow: 0 8px 20px rgba(85, 90, 96, 0.738);
+  box-shadow: 0 2px 16px rgb(0, 0, 0);
 }
 
 .project-card:hover {
