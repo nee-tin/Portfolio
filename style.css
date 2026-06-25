@@ -352,13 +352,14 @@ font-family: Arial, sans-serif;
 }
 
 .project-card .padding{
-  padding-bottom: 20px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
  
 }
 
 .project-card .pad{
-  padding-bottom: 22px;
-   
+  padding-bottom: 80px;
+   margin-bottom: 80px;
 }
 
 .project-card .bold{
