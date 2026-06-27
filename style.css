@@ -233,6 +233,8 @@ font-family: Arial, sans-serif;
   font-size: 0.95rem;
   line-height: 1.5;
   color: #0f0f0f;
+  text-align: center;
+  align-items: center;
 }
 
 
@@ -571,6 +573,7 @@ font-family: Arial, sans-serif;
   .highlight-card {
     flex: 1 1 250px;
     padding: 18px;
+    max-width: 300px;
   }
 
   .highlights {
@@ -602,5 +605,9 @@ font-family: Arial, sans-serif;
    }
    .highlights-grid {
     grid-template-columns: 1fr;
+  }
+
+  .highlight-card{
+    max-width: 200px;
   }
 }
