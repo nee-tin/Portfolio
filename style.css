@@ -55,7 +55,7 @@ html, body {
     margin-top: 10px;
     padding-top: 12px;
    color: #fff;
-   -webkit-text-stroke: 2px #0a3d91;
+   -webkit-text-stroke: 1px #999999;
    }
 
 .hero-buttons{
