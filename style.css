@@ -576,6 +576,11 @@ font-family: Arial, sans-serif;
   transform: translateY(0);
 }
 
+#other-projects h2{
+ color: #0a3d91;
+;
+}
+
 
 /* ===== CONTACT ===== */
 #contact {
