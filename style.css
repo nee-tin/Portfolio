@@ -600,7 +600,7 @@ font-family: Arial, sans-serif;
   border: 1px solid rgba(255,255,255,0.08);
 
   box-shadow:
-    0 4px 12px rgba(2,159,211,0.25),
+    0 4px 12px rgba(14, 93, 231, 0.25),
     0 2px 6px rgba(0,0,0,0.15);
 
   transition: all 0.25s ease;
@@ -610,10 +610,10 @@ font-family: Arial, sans-serif;
   transform: translateY(-2px);
 
   box-shadow:
-    0 8px 20px rgba(2,159,211,0.35),
+    0 8px 20px rgba(2, 85, 211, 0.35),
     0 4px 10px rgba(0,0,0,0.20);
 
-  background: #04ace4;
+  background: #0474e4;
 }
 
 .project-btn:active{
