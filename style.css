@@ -413,7 +413,7 @@ font-family: Arial, sans-serif;
 /* ===== PROJECTS ===== */
 #projects h2 {
   margin-bottom: 25px;
- color: #0a3d91;
+ color: #1043a9;
 }
 
 #projects > p {
@@ -536,12 +536,12 @@ font-family: Arial, sans-serif;
 }
 
 .project-card.featured h3 {
-  color: rgb(3, 3, 255);
+  color: rgb(4, 4, 159);
   
 }
 
 .project2cards h3 {
-  color: rgb(10, 10, 230);
+  color:rgb(4, 4, 159);
   
 }
 
@@ -553,7 +553,7 @@ font-family: Arial, sans-serif;
   text-align: justify;
  max-width:600px;
   margin:0 auto;
-  color: rgb(3, 3, 106);
+  color: rgb(12, 12, 12);
 }
 
 .project2cards p {
@@ -587,7 +587,7 @@ font-family: Arial, sans-serif;
 }
 
 .project-btn {
-  background: #2261df;
+  background: #065fb1;
   color: #fff;
 
   padding: 6px 14px;
